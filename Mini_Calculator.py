@@ -16,20 +16,20 @@ a = 8
 
 b = 9
 
-type = "Subtract" # Options: Add, Subtract, Multiply, Divide
+type = "S" # Options: Add (A), Subtract (S), Multiply (M), Divide (M)
 
 def math(num1,num2,type):
 
-    if type == "Multiply":
+    if type == "M":
         print(f"{num1} multiplied by {num2} is: {num1*num2}")
         
-    elif type == "Subtract":
+    elif type == "S":
         print(f"{num1} minus {num2} is: {num1-num2}")
 
-    elif type == "Add":
+    elif type == "A":
         print(f"{num1} plus {num2} is: {num1+num2}")
 
-    if type == "Divide":
+    if type == "D":
         print(f"{num1} divided by {num2} is: {num1/num2}")
     
 math(a, b, type)
