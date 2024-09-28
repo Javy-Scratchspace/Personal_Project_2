@@ -1,4 +1,8 @@
-x = 84
+# This is a fun calculator made to demonstrate the capabilities of python
+# Author: Javier Cuevas Chabrier
+# Date: 09/27/2024
+
+x = 23
 
 if x == 15:
     print("x is equal to 15")
@@ -16,7 +20,7 @@ a = 8
 
 b = 9
 
-type = "S" # Options: Add (A), Subtract (S), Multiply (M), Divide (M)
+type = "M" # Options: Add (A), Subtract (S), Multiply (M), Divide (D)
 
 def math(num1,num2,type):
 
